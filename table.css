@@ -32,3 +32,20 @@ html {
   
    
 }
+a{
+    font-size: large;
+  }
+  a:link,
+  a:visited {
+    color: rgb(233, 41, 73);
+    font-weight: normal;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  
+  
+  nav {
+    
+    margin-top: 3em;
+  }
