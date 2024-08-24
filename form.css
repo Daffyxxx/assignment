@@ -1,0 +1,53 @@
+header {
+text-align: center;
+padding-top: 1em;
+}
+
+h3 span{
+    color: blue;
+    
+}
+h1, h1 p{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    ;
+}
+
+input{
+    background-color: #f2f2f2;
+    height: 30px;
+    
+}
+input[type="submit"] {
+background-color: rgb(124, 124, 235);
+width: 50%;
+
+}
+html{
+   margin-left: 1em;
+
+}
+label {
+    font-size:large;
+}
+a{
+    font-size: large;
+  }
+  a:link,
+  a:visited {
+    color: rgb(233, 41, 73);
+    font-weight: normal;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  #photo {
+    padding-block: 1em;
+  }
+  
+  nav {
+    
+    margin-top: 3em;
+  }
+  

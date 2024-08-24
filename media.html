@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media elements</title>
+    <link rel="stylesheet" href="media.css">
+  </head>
+  <body>
+    <header>
+      <h1>Message about me</h1>
+    </header>
+    <div>
+       <p>
+      I am Dafe Avwerosuoghene from Delta state of Southern Nigeria. I am 35
+      years old and was born in Abuja. I have a passion for software engineering
+      with the seal to learn and grow in the field. I'm a highly motivated and
+      passionate individual with a little background in technology and
+      innovation. <br />
+      I am an Alt schooler and my ID is <strong>ALT/SOE/024/1154</strong>. I
+      joined Alt school to gain the skills and knowledge needed to succeed in
+      the tech industry. I am happy to be in this community and hope to get the
+      best learning experience from your experienced instructors and peers .
+    </p>
+    </div>
+   
+
+    <picture>
+      <!-- Source for large screens (laptop) -->
+      <source
+        srcset="asset/images/dafe-1025px.jpg 1025w"
+        media="(min-width: 1024px)"
+        width="400"
+        height="500"
+      />
+
+      <!-- Source for medium screens (tablet) -->
+      <source
+        srcset="asset/images/dafe-850px.jpg 850w"
+        media="(min-width: 600px) and (max-width: 1023px)"
+        width="350"
+        height="500"
+      />
+
+      <!-- Source for small screens (mobile) -->
+      <source
+        srcset="asset/images/dafe-450px.jpg 450w"
+        media="(min-width: 299px) "
+        width="300"
+        height="500"
+      />
+
+      <!-- Fallback image -->
+      <img src="asset/images/dafe-alt.jpg" alt="Responsive image" />
+    </picture>
+    <br /><br /><br />
+
+    <!-- audio control -->
+    <div class="audio">
+      <h2>Audio Message about me.</h2>
+      <audio controls>
+        <source src="asset/audio/dafe-audio.mp3" type="audio/mp3" />
+        Your browser does not support the audio tag.
+      </audio>
+    </div>
+    <br /><br /><br />
+
+    <!-- video control -->
+    <div class="video">
+      <h2>Video Message about me.</h2>
+      <video controls>
+        <source src="asset/video/dafe-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="../index.html">About Dafe Avwerosuoghehe</a></li>
+        <li><a href="form.html">Application Form</a></li>
+        <li><a href="table.html">Alt school Courses</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

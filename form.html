@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <!---->
+    <header>
+      <h1>
+        Alt____
+        <p>school</p>
+      </h1>
+      <h3>Already an Altschooler? <span>Sign in!</span></h3>
+    </header>
+    <div>
+      <h2>Signup</h2>
+      <p>Take the next steps to apply at AltSchool Africa</p>
+    </div>
+
+    <main>
+      <form>
+        <label for="f name">first name:</label>
+        <br /><input
+          type="text"
+          name="f name"
+          autocomplete="given name"
+          placeholder="enter first name"
+          size="100"
+          id="f name"
+        />
+        <br /><br />
+        <label for="name">Last name</label> <br />
+        <input
+          type="text"
+          name="name"
+          autocomplete="family name"
+          placeholder="enter last name"
+          size="100"
+          id="name"
+        />
+        <br /><br />
+        <label for="gender">Select gender</label> <br />
+        <input list="gender type" placeholder="select gender" id="gender" />
+        <datalist id="gender type">
+          <option>male</option>
+          <option>female</option>
+        </datalist>
+        <br /><br />
+        <label for="date">Date of birth</label> <br />
+        <input type="date" id="date" />
+        <br /><br />
+        <label for="email">Email Address</label> <br />
+        <input
+          type="email"
+          name="email"
+          autocomplete="off"
+          placeholder="Enter email Address"
+          size="100"
+          id="email"
+        />
+        <br /><br />
+        <label for="Phone">Phone number</label> <br />
+        <input
+          type="tel"
+          name="Phone"
+          autocomplete="phone number"
+          placeholder="08154387000"
+          size="100"
+          id="Phone"
+        />
+        <br /><br />
+        <label for="country">Country</label>
+        <br />
+        <input
+          type="text"
+          name="country"
+          autocomplete="country-name"
+          placeholder="select your country"
+          size="100"
+          id="country"
+        />
+        <br /><br />
+        <label for="state">State/City of residence</label>
+        <br />
+        <input
+          type="text"
+          placeholder="Enter your state of residence"
+          size="100"
+          id="state"
+        />
+        <br /><br />
+        <label for="channel">How did you hear About us?</label> <br />
+        <input
+          list="channel Application"
+          placeholder="Select channel"
+          id="channel"
+        />
+        <datalist id="channel Application">
+          <option>twitter</option>
+          <option>facebook</option>
+          <option>linkedin</option>
+          <option>yuotube</option>
+          <option>friend</option>
+          <option>whatsapp</option>
+          <option>instagram</option>
+          <option>bill board</option>
+          <option>sales officer</option>
+          <option>others</option>
+        </datalist>
+        <br />
+        <br />
+        <label for="Password">Password</label> <br />
+        <input
+          type="password"
+          placeholder="Enter password"
+          size="100"
+          id="Password"
+        />
+        <br /><br />
+        <label for="c Password">Confirm password</label><br />
+        <input
+          type="password"
+          placeholder="Enter password again"
+          size="100"
+          id="c Password"
+        />
+      </form>
+    </main>
+    <p>
+      By clicking continue, I agree to <a href="">Terms of use</a> and
+      acknowledge that i have read the <a href="">Privacy Policy</a>.
+    </p>
+    <br />
+    <input type="Submit" value="Submit -- >" />
+    
+    <nav>
+      <ul>
+        <li><a href="../index.html">About Dafe Avwerosuoghehe</a></li>
+        <li><a href="form.html">Application Form</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+html {
+  margin: 2em;
+  background-color: rgb(236, 236, 227);
+}
+header {
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  font-size: larger;
+  text-decoration: underline;
+  text-shadow: 0 0 black;
+  text-transform: uppercase;
+  background-color: white;
+}
+p {
+  font-size: large;
+  padding-bottom: 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h2 {
+  text-transform: uppercase;
+  text-shadow: 0 0 black;
+}
+ a{
+  font-size: large;
+}
+a:link,
+a:visited {
+  color: rgb(233, 41, 73);
+  font-weight: normal;
+}
+a:hover {
+  text-decoration: none;
+}
+#photo {
+  padding-block: 1em;
+}
+
+nav {
+  background-color: rgb(214, 214, 219);
+}
