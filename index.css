@@ -37,4 +37,7 @@ a:hover{
 #photo{
     padding-block: 1em;
 }
+img{
+    min-width: min-content;
+}
 
