@@ -48,4 +48,7 @@ a{
     
     margin-top: 3em;
   }
-  
+  p a:visited {
+    color: blue;
+
+  }
