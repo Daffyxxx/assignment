@@ -11,6 +11,7 @@ header {
   text-shadow: 0 0 black;
   text-transform: uppercase;
   background-color: white;
+  min-width: min-content;
 }
 p {
   font-size: large;
