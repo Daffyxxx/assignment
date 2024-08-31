@@ -38,3 +38,10 @@ a:hover {
 nav {
   background-color: rgb(214, 214, 219);
 }
+ul{
+  list-style-type: none;
+  margin: 0;
+  margin-top: 2em;
+  padding-left: 0;
+  padding-block: 0em;
+}

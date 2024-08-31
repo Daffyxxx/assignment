@@ -37,5 +37,11 @@ a:hover{
 #photo{
     padding-block: 1em;
 }
-
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 2em;
+    padding-left: 0;
+    
+}
 
